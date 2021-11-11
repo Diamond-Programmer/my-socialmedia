@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/my-socialmedia/static/css/main.9ee74780.chunk.css",
+    "main.css": "/my-socialmedia/static/css/main.e9ac7a3d.chunk.css",
     "main.js": "/my-socialmedia/static/js/main.8127c9b2.chunk.js",
     "main.js.map": "/my-socialmedia/static/js/main.8127c9b2.chunk.js.map",
     "runtime-main.js": "/my-socialmedia/static/js/runtime-main.65d1251b.js",
@@ -10,7 +10,7 @@
     "static/js/3.7bea12cd.chunk.js": "/my-socialmedia/static/js/3.7bea12cd.chunk.js",
     "static/js/3.7bea12cd.chunk.js.map": "/my-socialmedia/static/js/3.7bea12cd.chunk.js.map",
     "index.html": "/my-socialmedia/index.html",
-    "static/css/main.9ee74780.chunk.css.map": "/my-socialmedia/static/css/main.9ee74780.chunk.css.map",
+    "static/css/main.e9ac7a3d.chunk.css.map": "/my-socialmedia/static/css/main.e9ac7a3d.chunk.css.map",
     "static/js/2.a3e82ed0.chunk.js.LICENSE.txt": "/my-socialmedia/static/js/2.a3e82ed0.chunk.js.LICENSE.txt",
     "static/media/1409946.8e408da0.png": "/my-socialmedia/static/media/1409946.8e408da0.png",
     "static/media/logo.6ce24c58.svg": "/my-socialmedia/static/media/logo.6ce24c58.svg",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.65d1251b.js",
     "static/js/2.a3e82ed0.chunk.js",
-    "static/css/main.9ee74780.chunk.css",
+    "static/css/main.e9ac7a3d.chunk.css",
     "static/js/main.8127c9b2.chunk.js"
   ]
 }
