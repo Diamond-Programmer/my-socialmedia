@@ -1,0 +1,125 @@
+
+  ul[role="list"],
+  ol[role="list"] {
+    list-style: none;
+  }
+  
+
+  html:focus-within {
+    scroll-behavior: smooth;
+  }
+  
+
+  body {
+    min-height: 100vh;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+  }
+
+
+  h1{
+    font-style: italic;
+    color: #00f260;
+    position: absolute;
+    top: 0px;
+    left: 550px;
+    font-size: 60px;
+  }
+  h2{
+    font-style: italic;
+    color: #00f260;
+    position: absolute;
+    bottom: 0px;
+    left: 460px;
+    font-size: 60px;
+  }
+
+
+  
+  a:not([class]) {
+    text-decoration-skip-ink: auto;
+  }
+
+  img,
+  picture {
+    max-width: 100%;
+    display: block;
+  }
+
+  .vk{
+    height: fit-content;
+    width: 200px;
+    border-radius: 40px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html:focus-within {
+      scroll-behavior: auto;
+    }
+  
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+  
+  body {
+    background: black;
+
+  }
+  
+  .container {
+    /* padding: 0rem 2rem; */
+    max-width: 72rem;
+    margin: 0 auto;
+    position: absolute;
+    top: 250px;
+    height: fit-content;
+  }
+  
+  .grid {
+    display: grid;
+    gap: var(--gap, 1rem);
+  }
+  
+  .grid--columns {
+    grid-auto-columns: 1fr;
+    grid-auto-flow: column;
+  }
+  
+  /* featured grid */
+  
+  .feature-grid-container {
+    perspective: 100rem;
+    position: relative;
+  }
+  
+  .feature-grid {
+    position: relative;
+    z-index: -1;
+    left: min(calc(1000px - 100vw) * -1, 0px);
+    width: 55rem;
+    align-self: center;
+    grid-template-columns: repeat(5, 1fr);
+    /* grid-template-rows: repeat(6, 1fr); */
+    transform-origin: left;
+    transform: rotateY(-40deg)
+              rotateX(50deg);
+
+  }
+  
+  .feature-grid > a {
+    border-radius: 0.75em;
+    transition: transform 350ms ease-in-out;
+    overflow: hidden;
+  }
+  
+  .feature-grid > a:hover,
+  .feature-grid > a:focus-visible {
+    transform: scale(1.1);
+  }
+  
